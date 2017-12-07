@@ -1,0 +1,201 @@
+{
+	"users":[
+		{
+			"username":"1",
+			"password":"1",
+			"name":"王硕",
+			"id":"19870120",
+			"sex":"男",
+			"birthdate":"1980-03-26",
+			"leadership":true,
+			"topic":"说一下今天的天气",
+			"words":"今天天气不错哦",
+			"time":"2017-09-15 10:20:26",
+			"tel":"18726623580",
+			"address":"北京市朝阳区",
+			"urlControl":"051648761334512"
+		},
+		{
+			"username":"2",
+			"password":"2",
+			"name":"刘涵",
+			"id":"20150309",
+			"sex":"女",
+			"birthdate":"1992-03-26",
+			"leadership":false,
+			"topic":"2017，我们来聊聊 Node.js",
+			"words":"Chrome浏览器已经蹦到57版本了，是名副其实的版本帝，作为兄弟的Node.js也一样，1.0之前等了6年，而从1.0到8.0，只用了2年时间。",
+			"time":"2017-08-23 15:30:25",
+			"tel":"15908645145",
+			"address":"上海市普陀区",
+			"urlControl":"685964594362303"
+		},
+		{
+			"username":"3",
+			"password":"3",
+			"name":"李浩鹏",
+			"id":"19759114",
+			"sex":"男",
+			"birthdate":"1980-03-26",
+			"leadership":true,
+			"topic":"egg-socket.io无法handle路由？",
+			"words":"客户端emit消息之后，filter可以输出包的内容，但是对应的chat“路由”并没有执行，controller中的函数没有任何输出信息，也没有执行emit。",
+			"time":"2017-06-15 15:30:25",
+			"tel":"18327623568",
+			"address":"北京市朝阳区",
+			"urlControl":"884026529476977"
+		},
+		{
+			"username":"4",
+			"password":"4",
+			"name":"林峰",
+			"id":"19834448",
+			"sex":"女",
+			"birthdate":"1992-03-26",
+			"leadership":false,
+			"topic":"express 4.0 使用mongoose实现注册登录功能",
+			"words":"mongoose是基于mongodb开发出来一个数据库工具，它使用scheme、model、entity三个概念来具象化mongoose，并封装了mongodb的一些函数，使得我们操作数据库更方便快捷在查询数据库情况时使用了robmongo这个可视化工具，不用再在终端敲代码查看情况，节省了很多时间",
+			"time":"2017-06-06 15:51:05",
+			"tel":"13251459842",
+			"address":"杭州市西湖区",
+			"urlControl":"431130580673925"
+		},
+		{
+			"username":"5",
+			"password":"5",
+			"name":"尼古拉斯奥拓",
+			"id":"19950677",
+			"sex":"男",
+			"birthdate":"1996-08-09",
+			"leadership":false,
+			"topic":"nodejs中大量短时间定时器实现方案？",
+			"words":"最近用node+socket.io做手游服务端，在小范围的线上测试的时候发现有内存泄漏，一开始是以为是socket.io的问题 最后这几天通过heapdump分析，基本定位了是node-scheduled这个库导致的（不知道是不是我使用问题）",
+			"time":"2017-03-27 15:30:25",
+			"tel":"18327623568",
+			"address":"上海市浦东新区",
+			"urlControl":"179301643348299"
+		},
+		{
+			"username":"6",
+			"password":"6",
+			"name":"唐泽如",
+			"id":"19891090",
+			"sex":"男",
+			"birthdate":"1979-05-26",
+			"leadership":true,
+			"topic":"webpack之CommonsChunkPlugin正确打开方式",
+			"words":"可以看出，再次打包后的vendor文件hash值改变了，为了解决这个问题，再次查阅webpack，在webpack2的文档中，翻到了解决方法，主要是为了学习webpack2，顺便翻到了打包后，会多出个mainfest文件，但我们需要的vendor的hash值没有改变，这样才是我要的正确打开方式嘛，对缓存有需求的同学可以照此方法试下。",
+			"time":"2016-12-02 15:30:25",
+			"tel":"15984510036",
+			"address":"武汉市武昌区",
+			"urlControl":"468039174191653"
+		},
+		{
+			"username":"7",
+			"password":"7",
+			"name":"邓莎",
+			"id":"19990615",
+			"sex":"女",
+			"birthdate":"1992-05-13",
+			"leadership":false,
+			"topic":"用commander模块做一个自己的eslint脚手架",
+			"words":"这是一个集成了 eslint、stylelint、git hook 的前端代码检查工具。",
+			"time":"2016-09-25 15:30:25",
+			"tel":"18327623568",
+			"address":"上海市普陀区",
+			"urlControl":"277089243056252"
+		},
+		{
+			"username":"8",
+			"password":"8",
+			"name":"刘丽",
+			"id":"19890319",
+			"sex":"女",
+			"birthdate":"1993-08-26",
+			"leadership":false,
+			"topic":"node使用谷歌的dialogflow做聊天机器人，出现错误connect ETIMEDOUT 35.190.15.252:443",
+			"words":"使用webspeech api和AI搭建语音聊天机器人 如上面的链接，按照github的代码来的，服务器能识别出文字，但是貌似不能把文字发送给AIP.AI（也就是现在的dialogflow)。",
+			"time":"2017-09-15 15:30:25",
+			"tel":"18327623568",
+			"address":"上海市普陀区",
+			"urlControl":"958624605624936"
+		},
+		{
+			"username":"9",
+			"password":"9",
+			"name":"俞志华",
+			"id":"20150309",
+			"sex":"男",
+			"birthdate":"1992-03-26",
+			"leadership":false,
+			"topic":"koa 框架服务端渲染",
+			"words":"由于要做服务端渲染，在网上找了找，发现koa框架服务端渲染包有koa-ejs和koa-views两个package, 但是发现下载量都不高，有什么更好的包吗? 请各位道友推荐一下，在此感谢。",
+			"time":"2017-09-15 15:30:25",
+			"tel":"18327623568",
+			"address":"上海市普陀区",
+			"urlControl":"510890522808767"
+		},
+		{
+			"username":"10",
+			"password":"10",
+			"name":"邵子涵",
+			"id":"20030316",
+			"sex":"女",
+			"birthdate":"1990-9-30",
+			"leadership":false,
+			"topic":"Cnode两个小bug",
+			"words":"积分问题 我自己首页显示的积分为135，然而当我点进详情页面的时候积分为145，这个抓的数据不一样？",
+			"time":"2017-09-15 15:30:25",
+			"tel":"18327623568",
+			"address":"上海市普陀区",
+			"urlControl":"535502246208488"
+		},
+		{
+			"username":"11",
+			"password":"11",
+			"name":"祁景浩",
+			"id":"19860327",
+			"sex":"男",
+			"birthdate":"1976-04-19",
+			"leadership":true,
+			"topic":"这样实时生成的ID唯一性有保证吗？",
+			"words":"在服务端需要即时生成一个类似UUID的ID号，为了能够为记录快速排序，我没有采用真的UUID,而是打算使用“系统当前时间戳”+“i”（ i 是一个范围从1到9999的自增变量）拼接成一个新的整数作为ID，因为JavaScript正常是单线程的（如果采取多线程，我会将不同线程的i的取值范围错开），在单线程高并发（每秒小于i的最大值）请求ID号的情况下，应该是能够保证ID的唯一性的，请问我的这个方案有什么问题吗？",
+			"time":"2017-09-15 15:30:25",
+			"tel":"18745461366",
+			"address":"上海市普陀区",
+			"urlControl":"536235817801207"
+		},
+		{
+			"username":"12",
+			"password":"12",
+			"name":"邱钦浩",
+			"id":"19990306",
+			"sex":"男",
+			"birthdate":"1991-07-16",
+			"leadership":false,
+			"topic":"一种因闭包引发的内存泄露",
+			"words":"解决1.replaceThing解决加入originalThing = null；2.unused以参数形式，而非闭包使用originalThing",
+			"time":"2017-09-15 15:30:25",
+			"tel":"13538561879",
+			"address":"北京市昌平区",
+			"urlControl":"511907663405872"
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
